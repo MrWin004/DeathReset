@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "DeathReset",
+    "description": "DeathReset script add-on",
+    "uuid": "b7c42e91-5d38-4f26-a8e7-91c03b6f2d54",
+    "version": "1.0.0",
+    "min_engine_version": [1, 21, 100]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/main.js",
+      "uuid": "e24f7a63-8c19-46d5-b302-7a91f5c84e16",
+      "version": "1.0.0"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.1.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.1.0"
+    }
+  ]
+}
